@@ -1,0 +1,39 @@
+
+<%- include('partials/userheader'); %>
+
+
+
+<h1>Demands and their status</h1>
+<table class="table">
+    <tr>
+       <th>Email</th>
+       <th>Name</th>
+       <th>Description </th>
+       <th>Location</th>
+       <th>Category</th>
+       <th>Status</th>
+    </tr>
+     <% found.forEach(function(demand){ %>
+        <tr>
+            <td><%= demand.email  %></td>
+            <td><%= demand.name %></td>
+            <td><%= demand.description %></td>
+            <td><%= demand.location %></td>
+            <td><%= demand.category %></td>
+            <td><%= demand.status %></td>
+        </tr>
+    <% });%>
+
+</table>
+
+
+
+
+
+
+
+
+
+
+
+<%- include('partials/footer'); %>

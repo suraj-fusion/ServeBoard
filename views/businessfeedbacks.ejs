@@ -1,0 +1,41 @@
+
+<%- include('partials/businessheader'); %>
+
+
+
+<h1>Feedback of Users</h1>
+<table class="table">
+    <tr>
+       <th>Email</th>
+       <th>Name</th>
+       <th>Feedback </th>
+       <th>Rating</th>
+       
+    </tr>
+     <% found.forEach(function(feedback){ %>
+   
+        <tr>
+        
+            <td><%= feedback.email  %></td>
+            <td><%= feedback.name %></td>
+            <td><%= feedback.feedback %></td>
+            <td><%= feedback.rating%></td>
+            
+      
+        </tr>
+    
+    <% });%>
+
+</table>
+
+
+
+
+
+
+
+
+
+
+
+<%- include('partials/footer'); %>

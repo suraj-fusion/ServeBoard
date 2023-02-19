@@ -1,0 +1,46 @@
+
+<%- include('partials/businessheader'); %>
+
+
+
+<h1>Demands of Users</h1>
+<table class="table">
+    <tr>
+       <th>Email</th>
+       <th>Name</th>
+       <th>Description </th>
+       <th>Location</th>
+       <th>Category</th>
+       <th>Status</th>
+       <th>Change Status</th>
+    </tr>
+     <% found.forEach(function(demand){ %>
+   
+        <tr>
+            <form method="POST" action="/change_status">
+            <input type="hidden" name="id" value=<%= demand.id %>>
+            <td><%= demand.email  %></td>
+            <td><%= demand.name %></td>
+            <td><%= demand.description %></td>
+            <td><%= demand.location %></td>
+            <td><%= demand.category %></td>
+            <td><%= demand.status %></td>
+            <td><button type="submit" class="btn" style="background-color:#5E38F8 ;color:white" >Change Status</button></td>
+        </form>
+        </tr>
+    
+    <% });%>
+
+</table>
+
+
+
+
+
+
+
+
+
+
+
+<%- include('partials/footer'); %>

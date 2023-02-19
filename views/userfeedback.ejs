@@ -1,0 +1,70 @@
+
+
+
+
+<%- include('partials/userheader'); %>
+
+
+<div class="container mt-5">
+    <h1>Enter Your Feedback</h1>
+  
+    <div class="row">
+      <div class="col-sm-4" style=" text-align:center;margin-left:32%;">
+        <div class="card">
+          <div class="card-body">
+  
+            <!-- Makes POST request to /login route -->
+            <form action="/submit_feedback" method="POST">
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" name="email">
+              </div>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" name="name">
+              </div>
+              <div class="form-group">
+                <label for="feedback">Feedback</label>
+                <input type="text" class="form-control" name="feedback">
+              </div>
+              <div class="form-group">
+                <label for="rating">Rating out of 10</label>
+                <input type="number" max="10" class="form-control" name="rating">
+              </div>
+              <button type="submit" class="btn " style="background-color:#5E38F8 ;color:white">Submit</button>
+            </form>
+  
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+<%- include('partials/footer'); %>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

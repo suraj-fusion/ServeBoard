@@ -1,0 +1,48 @@
+<%- include('partials/businessheader'); %>
+
+
+
+
+
+
+<div class="container mt-5">
+    <h1>Change Status</h1>
+  
+    <div class="row">
+      <div class="col-sm-4" style=" text-align:center;margin-left:32%;">
+        <div class="card">
+          <div class="card-body">
+  
+            <!-- Makes POST request to /login route -->
+            <form action="/publish_status_change" method="POST">
+            <input type="hidden"  name="id" value= <%= id %> >
+              <div class="form-group">
+                <label for="updatedstatus">Set Status</label>
+                <input type="text" autofocus autocomplete="off" class="form-control" name="updatedstatus">
+              </div>
+              <button type="submit" class="btn" style="background-color:#5E38F8 ;color:white" >Change</button>
+            </form>
+  
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<%- include('partials/footer'); %>
