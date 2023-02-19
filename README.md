@@ -2,19 +2,21 @@
 
 This is my submission for Codex -iter dev stream february 2023.
 
+## Tech Stack Used
+
+Node.js | Express.js | Mongodb | EJS | Html | CSS | Javascript
 
 ## How to run this app in local system?
+
+Make sure node.js is installed on your system.It can be installed from : https://nodejs.org/en/
+
+I have inclued the nodemodules needed to run this app in the repo itself so it can be run directly
 
 Clone this repository using `git clone https://github.com/suraj-fusion/ServeBoard.git` and cd into the directory
 
 run the command `nodemon app.js` on terminal
 
 visit http://localhost:3000 in order to access this webapp
-
-
-## Tech Stack Used
-
-Node.js | Express.js | Mongodb | EJS | Html | CSS | Javascript
 
 ## Description
 It is simple webapp which helps users submit their request to a business.
@@ -25,6 +27,8 @@ It is divided into two sections for the users and another for the business
 ### User Section
 
 Users can initially Register and then login into the webapp
+
+For registration and login i have used the bycrypt module from NPM
 
 For the users it has 4 options which can be accessed through the navigation bar uptop:
 
