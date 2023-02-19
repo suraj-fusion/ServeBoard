@@ -20,7 +20,7 @@ Node.js | Express.js | Mongodb | EJS | Html | CSS | Javascript
 It is simple webapp which helps users submit their request to a business.
 It is divided into two sections for the users and another for the business
 
-### Currently at this stage of the webapp it can handle only one business and multiple users but it can be later scaled for multiple businesses
+### Currently at this stage of the webapp it can handle only one business and multiple users but it can be later be developed for multiple businesses
 
 ### User Section
 
