@@ -48,7 +48,7 @@ Businesses can initially Register and then login into the webapp
 
 For the businesses it has 3 options which can be accessed through the navigation bar uptop:
 
-1.Demands-Business can look through each demand submitted can update the status according to its convience which which will be displayed when user searches for the status of their demands
+1.Demands-Business can look through each demand submitted can update the status according to its convience which which will be displayed when user searches for the status of their demands (***currently the business can change status through text but it can be developed into predefined radiobuttons***)
 
 2.Feedback-Business can look through all the rating left by the users
 
