@@ -20,7 +20,7 @@ const saltRounds=10;
 
 
 ////////////////////////////////////////////////////////////// For users////////////////////////////////////////////////////////////////
-mongoose.connect("mongodb+srv://suraj-fusion:surajraj@cluster0.z5cqkyz.mongodb.net/BlogDB?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect("mongodb+srv://suraj-fusion:surajraj@cluster0.z5cqkyz.mongodb.net/ServeBoardUserDB?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true });
 
 const userSchema= new mongoose.Schema({    //have to create proper mongoose schema to encrypt it 
     email:String,
