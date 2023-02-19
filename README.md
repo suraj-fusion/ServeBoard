@@ -5,7 +5,7 @@ This is my submission for Codex -iter dev stream february 2023.
 
 ## How to run this app in local system?
 
-Clone this repository and cd into the directory
+Clone this repository using `git clone https://github.com/suraj-fusion/ServeBoard.git` and cd into the directory
 
 run the command `nodemon app.js` on terminal
 
