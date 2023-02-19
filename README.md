@@ -10,6 +10,8 @@ Node.js | Express.js | Mongodb | EJS | Html | CSS | Javascript
 
 Make sure node.js is installed on your system.It can be installed from : https://nodejs.org/en/
 
+Mongodb need not be installed since currently it uses mongodb atlas to save the data on the cloud so make sure u are connected to the internet
+
 I have included the nodemodules needed to run this app in the repo itself so it can be run directly
 
 Clone this repository using `git clone https://github.com/suraj-fusion/ServeBoard.git` and cd into the directory
